@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Oprilozhenii"
+    android:background="#00BFFF">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_o_priloshenii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="О приложении"/>
+
+
+        <TextView
+            android:id="@+id/main_text_o_priloshenii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:layout_below="@id/text_o_priloshenii"
+            android:layout_marginTop="30dp"
+            android:text="Название: StayHome\nВерсия:1.0"/>
+
+        <TextView
+            android:id="@+id/svyaz_s_razrabot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_below="@id/main_text_o_priloshenii"
+            android:layout_marginTop="10dp"
+            android:text="Провайдер"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_below="@id/svyaz_s_razrabot"
+            android:layout_marginTop="40dp"
+            android:text="Корпорация Stop Corona\nАдрес компании: Строителей 8/1\nСвязаться:\nstruchkov.01@list.ru\n89627391595\n89640771171\n89142326117\nСостав компании:\nМенеджер:Третьяков Степан\nДизайнер:Алексеева Мичийэ\nПрограммист:Стручков Алексей"/>
+
+    </RelativeLayout>
+
+</ScrollView>
